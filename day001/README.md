@@ -53,7 +53,7 @@ ws['B2'] = 98
 
 # 做点计算
 wx['A3'] = '他们相差'
-ws['B3'] = abs(ws['B1'] - ws['B2'])
+ws['B3'] = abs(ws['B1'].value - ws['B2'].value)
 
 # 保存这个工作簿
 wb.save('./第一个工作簿.xlsx')
