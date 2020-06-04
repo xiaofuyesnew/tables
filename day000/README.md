@@ -34,13 +34,25 @@
 
 > 创建我的第一个程序——Hello World!
 
-在任何一个地方，创建一个文件，重命名为`first.py`，然后把下面的这段内容复制过去：
+在任何一个地方，创建一个文本文件：
+
+![新建文件](./asserts/006_.png)
+
+重命名为`first.py`:
+
+![重命名](./asserts/006__.png)
+
+接着用记事本把它打开：
+
+![记事本打开](./asserts/006___.png)
+
+然后把下面的这段内容复制进去，保存：
 
 ```python
 print('Hello World!')
 ```
 
-也可以直接用这个文件：
+也可以直接右键保存下载这个文件：
 
 [first.py](./first.py)
 
@@ -49,4 +61,6 @@ print('Hello World!')
 然后再次打开`powershell`，输入命令`python first.py`:
 
 ![hello world](./asserts/007.png)
+
+至此，初期配置工作完成，可以进行下一步操作了。
 
