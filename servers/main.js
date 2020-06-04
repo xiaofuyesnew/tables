@@ -1,2 +1,0 @@
-const Koa = require('koa')
-
