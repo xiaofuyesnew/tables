@@ -48,5 +48,15 @@ print(source_ws['A' + str(first_cor)].value)
 print(source_ws['A' + str(second_cor)].value)
 print(source_ws['A' + str(third_cor)].value)
 
+
+target_ws['F9'] = first
+target_ws['F11'] = second
+target_ws['F13'] = third
+target_ws['E9'] = source_ws['A' + str(first_cor)].value
+target_ws['E11'] = source_ws['A' + str(second_cor)].value
+target_ws['E13'] = source_ws['A' + str(third_cor)].value
+
+wb.save('./test.xlsx')
+
 print(source_ws)
 print(target_ws)
