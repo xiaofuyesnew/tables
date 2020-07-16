@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/xiaofuyesnew/tables/issues"
   },
-  "homepage": "https://github.com/xiaofuyesnew/tables#readme"
+  "homepage": "https://github.com/xiaofuyesnew/tables#readme",
+  "dependencies": {
+    "xlsx": "^0.16.3"
+  }
 }
