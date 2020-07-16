@@ -1,0 +1,20 @@
+{
+  "name": "tables",
+  "version": "1.0.0",
+  "description": "### 写在前面",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiaofuyesnew/tables.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xiaofuyesnew/tables/issues"
+  },
+  "homepage": "https://github.com/xiaofuyesnew/tables#readme"
+}
